@@ -1,5 +1,5 @@
 :root {
-    --maincolor: #0099ff;
+    --marathongreen: #c0fe05;
 }
 .doto-font {
     font-family: "Doto", sans-serif;
@@ -29,7 +29,7 @@ body {
 #failed-connection {
     width: 700px;
     height: 200px;
-    border: solid 5px var(--maincolor);
+    border: solid 5px var(--marathongreen);
     color: white;
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ body {
     font-size: 50px;
 }
 #marathon-sigil {
-    background-color: var(--maincolor);
+    background-color: var(--marathongreen);
     width: 500px;
     height: 500px;
     padding: 50px;
@@ -57,13 +57,10 @@ header {
 }
 h1 {
     font-size: 15vh;
-    background-color: var(--maincolor);
+    background-color: var(--marathongreen);
     margin: 20px;
     width: 50vw;
     padding: 50px;
-}
-h2 {
-    color: white;
 }
 p {
     margin: 0;
@@ -81,8 +78,8 @@ p {
     gap: 4vh;
 }
 #squiggle {
-    border: solid 2px var(--maincolor);
-    border-top: solid 20px var(--maincolor);
+    border: solid 2px var(--marathongreen);
+    border-top: solid 20px var(--marathongreen);
     width: 200px;
     background-color: black;
     display: flex;
@@ -90,7 +87,7 @@ p {
     align-items: center;
 }
 #scan-button {
-    background-color: var(--maincolor);
+    background-color: var(--marathongreen);
     color: white;
     border: none;
     width: 200px;
@@ -98,7 +95,7 @@ p {
     font-size: 30px;
 }
 #scan-button-placeholder {
-    background-color: var(--maincolor);
+    background-color: var(--marathongreen);
     color: black;
     width: 200px;
     height: 50px;
@@ -111,7 +108,7 @@ p {
     display: none;
 }
 #green-border {
-    border: solid 2px var(--maincolor);
+    border: solid 2px var(--marathongreen);
 }
 #console-section {
     border: solid 1px black;
@@ -126,7 +123,7 @@ p {
     display: none;
 }
 #console-top {
-    border: solid 2px var(--maincolor);
+    border: solid 2px var(--marathongreen);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -153,7 +150,7 @@ p {
     font-size: 15px;
 }
 #connection-success {
-    color: black;
+    color: white;
     text-align: center;
     display: flex;
     align-items: center;
@@ -168,15 +165,14 @@ p {
 #connect-div > h2 {
     font-size: 10vh;
     color: black;
-    background-color: var(--maincolor);
+    background-color: var(--marathongreen);
     margin: 20px;
     width: 50vw;
     padding: 50px;
 }
 #section-connect {
-    color: white;
-    border: solid 2px var(--maincolor);
-    border-top: solid 20px var(--maincolor);
+    border: solid 2px var(--marathongreen);
+    border-top: solid 20px var(--marathongreen);
     margin-top: 10vh;
     margin-bottom: 5vh;
     padding: 20px;
@@ -191,7 +187,7 @@ p {
     margin: 20px;
 }
 #disc-button {
-    background-color: var(--maincolor);
+    background-color: var(--marathongreen);
     color: white;
     border: none;
     width: 200px;
@@ -202,8 +198,8 @@ p {
     margin-top: 20vh;
     width: 70vw;
     height: 30vh;
-    border: solid 2px var(--maincolor);
-    border-top: solid 20px var(--maincolor);
+    border: solid 2px var(--marathongreen);
+    border-top: solid 20px var(--marathongreen);
     display: flex;
     flex-direction: column;
     align-items: center;
